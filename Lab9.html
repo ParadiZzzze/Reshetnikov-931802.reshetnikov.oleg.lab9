@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Lab9</title>
+    <meta charset='UTF-8' />
+    <link rel='stylesheet' type='text/css' href='lab9.css' />
+ </head>
+ <body>
+    <table style='border: 3px solid rgba(10, 170, 219, 0.733); padding: 10px;'>
+        <tr>
+        <td colspan='5'><div class='textdiv'><p class='text'>
+                        <span class='first'></span>
+                        <span class='second'></span></p></div></tr>
+        <tr>
+        <td><input type='button' value='7' onclick='press(this.value)'></td>
+        <td><input type='button' value='8' onclick='press(this.value)'></td>
+        <td><input type='button' value='9' onclick='press(this.value)'></td>
+        <td><input type='button' value='/' onclick='press(this.value)'>
+        <td><input type='button' value='C' onclick='press(this.value)'></td>
+        </tr>
+        <tr>
+        <td><input type='button' value='4' onclick='press(this.value)'></td>
+        <td><input type='button' value='5' onclick='press(this.value)'></td>
+        <td><input type='button' value='6' onclick='press(this.value)'></td>
+        <td><input type='button' value='*' onclick='press(this.value)'>
+        <td><input type='button' value='&larr;' onclick='press(this.value)'></td>
+        </tr>
+        <td><input type='button' value='1' onclick='press(this.value)'></td>
+        <td><input type='button' value='2' onclick='press(this.value)'></td>
+        <td><input type='button' value='3' onclick='press(this.value)'></td>
+        <td><input type='button' value='-' onclick='press(this.value)'>
+        <td rowspan='2' style='height:165px;'><input type='button' value='=' onclick='press(this.value)'></td>
+        </tr>
+        <tr>
+        <td colspan='2'><input type='button' value='0' onclick='press(this.value)'></td>
+        <td><input type='button' value='.' onclick='press(this.value)'></td>
+        <td><input type='button' value='+' onclick='press(this.value)'></td>
+        </tr>
+    </table>
+
+    <script src='action.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body{
+box-sizing: border-box;
+user-select: none;
+}
+.text{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 35px;
+    line-height: 25px;
+    text-align: right;
+    background: white;
+    float: right;
+}
+.textdiv{
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 355px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.first, .second{
+line-height: 50px;
+}
+input[type=button]{
+height: 100%;
+min-height: 80px;
+font-size: 30px;
+width: 100%;
+}
+.first{
+color: #aaa;
+}
